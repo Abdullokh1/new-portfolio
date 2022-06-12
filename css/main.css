@@ -593,6 +593,7 @@ ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding: 0 0 !important;
   }
   .header {
     padding: 15px 20px;
@@ -1227,6 +1228,7 @@ ul {
   }
   .works__item {
     width: 350px;
+    margin-bottom: 20px;
   }
   .portfolio__work__list {
     padding: 0 20px;
