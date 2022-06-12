@@ -1,23 +1,753 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson</title>
-    <link
-      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/flexboxgrid.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
-    <link rel="stylesheet" href="css/main.min.css" />
-  </head>
 
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdullokh | Home</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+</head>
+
+<body>
+
+  <!-- HERO START  -->
+
+  <section id="hero" class="hero">
+    <h2 class="d-none">Abdullokh</h2>
+    <div class="hero__container">
+      <div class="container">
+
+        <!-- HEADER START  -->
+
+        <header class="header-part header d-flex justify-content-between align-items-center" id="navbar">
+          <div>
+            <a class="header__logo" href="#"><img src="images/logo.svg" alt="logo-main" width="100" height="90"></a>
+          </div>
+          <nav>
+            <ul class="header__list nav d-flex">
+              <li class="nav__item">
+                <a class="nav__link active" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__scroll__link" href="#about">
+                  About
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__scroll__link" href="#portfolio">
+                  Portfolio
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__scroll__link" href="#service">
+                  Service
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__scroll__link" href="#blog">
+                  Blog
+                </a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link nav__scroll__link" href="#contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__btn"><i class='bx bx-menu' id="header__burger__icon"></i></button>
+        </header>
+      </div>
+    </div>
+
+    <!-- HEADER END  -->
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="d-flex justify-content-between">
+          <div class="hero-content__inner">
+            <span class="hero-content__title pt-4">Hello, I'm</span>
+            <h1 class="hero-content__name">Abdullokh</h1>
+
+            <ul class="social-media">
+              <li class="social-media__item">
+                <a class="social-media__link" href="#"><i class='bx social-media__icon bxl-facebook'></i></a>
+              </li>
+
+              <li class="social-media__item">
+                <a class="social-media__link" href="#"><i class='bx social-media__icon bxl-twitter'></i></a>
+              </li>
+
+              <li class="social-media__item">
+                <a class="social-media__link" href="https://github.com/Abdullokh1" target="_blank"><i
+                    class='bx social-media__icon bxl-github'></i></a>
+              </li>
+            </ul>
+
+            <div class="hero-content__desc">
+              <h4 class="hero-content__infos">Creative<span class="hero-content__job animate-area"></span></h4>
+            </div>
+
+            <div class="hero-content__link__wrapper">
+              <a class="hero-content__link" href="#">Say Hello <i class='bx bx-mail-send'></i></a>
+              <a class="hero-content__about__link" href="#about">About Me</a>
+            </div>
+
+            <div class="hero-content__about__wrapper">
+              <a class="hero-content__mouse__link" href="#about"><span class="hero-content__mouse__icon"></span></a><br>
+              <a class="hero-content__mail" href="mailto:giyasovabdullo0@gmail.com">giyasovabdullo0@gmail.com</a>
+            </div>
+
+          </div>
+
+          <div class="hero-content__part ornament">
+            <span class="ornament__big"></span>
+            <div class="ornament__rectangle">
+              <h4 class="ornament__name">Abdullokh</h4>
+            </div>
+            <span class="ornament__second__rectangle"></span>
+            <span class="ornament__small__rectangle"></span>
+            <img class="img" src="index" alt="hero-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- HERO END  -->
+
+  <main>
+
+    <!-- ABOUT START  -->
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about__inner d-flex">
+          <div class="about__left col-lg-5">
+            <span class="about__rectangle"></span>
+            <div class="about__second__rectangle">
+              <div class="about__img__wrapper">
+              </div>
+              <img class="about__img" src="images/about-img.jpg" alt="about-img">
+            </div>
+          </div>
+          <div class="about__desc col-lg-4 ">
+            <h4 class="about__title">About me</h4>
+            <h3 class="about__job">I'm <span class="about__heroname">Abdullokh</span> </h3>
+            <h3 class="about__jobname">Frontend <span class="about__heroname">Developer</span> </h3>
+            <p class="about__country">Based in Bukhara,UZB</p>
+            <h3 class="about__info">Hi! My name is Abdullokh Giyasov. I am Frontend Developer, and I'm very passionate
+              and dedicated to my work.
+            </h3>
+            <h3 class="about__info">
+              With 1 year experience as a professional frontend developer, I have acquired the skills and knowledge
+              necessary to make your project a success.
+            </h3>
+            <a class="about__link" href="./images/Abdullokh'sResume.pdf" download>
+              Download CV
+              <i class='bx bx-download'></i>
+            </a>
+          </div>
+          <div class="about__img__part">
+            <div class="about__bottom__rectangle">
+              <img class="about__second__img" src="images/about-second-img.jpg" alt="about-second-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT END  -->
+
+
+    <!-- SKILLS START  -->
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center skills__inner">
+          <div class="left">
+            <h5 class="skills__title">My Skills</h5>
+            <p class="skills__desc">You Can Imagine I Can Do</p>
+            <p class="skills__text">I am working on a professional, visually sophisticated and technologically
+              proficient, responsive and multi-functional creative personal resume portfolio template Abdullokh</p>
+          </div>
+          <ul class="right">
+            <li class="skills__item ">
+              <div class="d-flex justify-content-between skills__rank__wrapper">
+                <h5 class="skills__name">HTML, Css</h5>
+                <p class="skills__rank">90%</p>
+              </div>
+              <div class="skills__amount">
+                <span class="skills__view"></span>
+              </div>
+            </li>
+
+            <li class="skills__item ">
+              <div class="d-flex justify-content-between skills__rank__wrapper">
+                <h5 class="skills__name">Javascript</h5>
+                <p class="skills__rank">80%</p>
+              </div>
+              <div class="skills__amount">
+                <span class="skills__view skills__view--second"></span>
+              </div>
+            </li>
+
+            <li class="skills__item ">
+              <div class="d-flex justify-content-between skills__rank__wrapper">
+                <h5 class="skills__name">React Js</h5>
+                <p class="skills__rank">60%</p>
+              </div>
+              <div class="skills__amount">
+                <span class="skills__view skills__view--third"></span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS END  -->
+
+
+    <!-- PORTFOLIO START  -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio__main__wrapper">
+        <div class="portfolio__inner">
+          <h4 class="portfolio__title">Selected works</h4>
+          <p class="portfolio__info">Check my portfolio</p>
+        </div>
+        <span class="portfolio__bottom"></span>
+        <ul class="portfolio__list d-flex justify-content-center flex-wrap">
+          <li class="portfolio__item"><a class="portfolio___link" href="#">All</a></li>
+          <li class="portfolio__item"><a class="portfolio___link" href="#">React Js</a></li>
+          <li class="portfolio__item"><a class="portfolio___link" href="#">Javascript</a></li>
+          <li class="portfolio__item"><a class="portfolio___link" href="#">Html,Css</a></li>
+          <li class="portfolio__item"><a class="portfolio___link" href="#">Sass</a></li>
+          <li class="portfolio__item"><a class="portfolio___link" href="#">DOM</a></li>
+        </ul>
+      </div>
+      <div class="container">
+        <ul class="d-flex flex-wrap justify-content-center portfolio__work__list works">
+
+          <li class="works__item col-4">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/react-food.jpg" alt="portfolio-icon-1" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/react-food">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://food-react1.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="works__item works__item--second">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/medium-react.jpg" alt="medium" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/medium-react-exam">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://medium-react.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="works__item work__item--third">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/react-badiyat.jpg" alt="badiyat" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/react-badiyat">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://reac-badiyat.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="works__item works__item-fourth">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/music-player.jpg" alt="music" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/react-music-player">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://react-player2.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="works__item works__item-fifth">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/freshio.jpg" alt="freshio" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/Freshio-exam">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://freshio-exam.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="works__item works__item-six">
+            <div class="works__item__inner"></div>
+            <div class="works__wrapper">
+              <img class="works__img" src="images/instagram.jpg" alt="instagram" width="200" height="100">
+              <div class="d-flex">
+                <a class="works__link me-3" target="_blank" href="https://github.com/Abdullokh1/instagram">
+                  <i class='bx works__icon bxl-github'></i>
+                </a>
+                <a class="works__link" target="_blank" href="https://insta23.netlify.app/">
+                  <i class='bx works__icon bxl-netlify'></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </section>
+
+    <!-- PORTFOLIO END  -->
+
+
+    <!-- SERVICE START  -->
+
+    <section id="service" class="service">
+      <div class="container">
+        <ul class="d-flex m-0 p-0 flex-wrap service__list">
+
+          <li class="col-6 service__item service__item--first">
+            <h5 class="service__title">What I Do</h5>
+            <h4 class="service__name">My Services</h4>
+            <p class="service__text service__text-first">We offer high quality products for competitive prices. Our main
+              goal is customer satisfaction, which we obtain through market orientation of ongoing service and support.
+            </p>
+          </li>
+
+          <li class="col-6 service__item service__item--white">
+            <div class="service__item__inner">
+              <div>
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="438pt"
+                  viewBox="0 -19 438.00146 438" width="438pt">
+                  <path
+                    d="m89.804688 360c-22.089844 0-40-17.90625-40-40v-142.265625c-.003907-3.371094.421874-6.734375 1.261718-10h-1.261718c-22.089844 0-40 17.910156-40 40v142.265625c0 22.09375 17.910156 40 40 40h223.800781c18.242187 0 34.171875-12.339844 38.738281-30zm0 0"
+                    fill="#d4e1f4"></path>
+                  <path
+                    d="m313.914062 276.632812v20.367188c-.015624 5.332031-1.328124 10.578125-3.828124 15.285156l118.113281 62.160156v-50.179687zm0 0"
+                    fill="#d4e1f4"></path>
+                  <path
+                    d="m222.089844 143.3125c-39.574219 0-71.65625-32.082031-71.65625-71.65625s32.082031-71.65625 71.65625-71.65625c39.574218 0 71.65625 32.082031 71.65625 71.65625s-32.082032 71.65625-71.65625 71.65625zm0-123.3125c-28.527344 0-51.65625 23.128906-51.65625 51.65625 0 28.53125 23.128906 51.65625 51.65625 51.65625s51.65625-23.125 51.65625-51.65625c0-28.527344-23.128906-51.65625-51.65625-51.65625zm0 0"
+                    fill="#ea4343"></path>
+                  <path
+                    d="m74.566406 124.3125c-29.078125 0-52.65625-23.574219-52.652344-52.65625 0-29.082031 23.574219-52.65625 52.65625-52.65625 29.082032 0 52.65625 23.574219 52.65625 52.65625s-23.578124 52.65625-52.660156 52.65625zm0-85.3125c-18.035156 0-32.65625 14.621094-32.652344 32.65625 0 18.035156 14.621094 32.65625 32.65625 32.65625 18.035157 0 32.65625-14.621094 32.65625-32.65625s-14.621093-32.65625-32.660156-32.65625zm0 0"
+                    fill="#ea4343"></path>
+                  <path
+                    d="m433.191406 174.683594c-2.953125-1.800782-6.648437-1.859375-9.660156-.160156l-99.53125 54.765624v-21.554687c0-27.570313-22.820312-49.734375-50.390625-49.734375h-223.804687c-27.425782-.078125-49.726563 22.09375-49.804688 49.519531v142.480469c-.0625 27.554688 22.226562 49.941406 49.78125 50h223.824219c27.574219 0 50.394531-22.429688 50.394531-50v-21.535156l99.582031 54.746094c1.4375.808593 3.0625 1.234374 4.710938 1.234374 1.746093 0 3.457031-.484374 4.945312-1.394531 3.007813-1.816406 4.820313-5.09375 4.761719-8.605469v-191.15625c.039062-3.519531-1.792969-6.792968-4.808594-8.605468zm-159.582031 205.316406h-223.804687c-16.496094-.035156-29.839844-13.433594-29.804688-29.929688v-142.335937c-.050781-16.371094 13.179688-29.683594 29.546875-29.734375h.257813 223.800781c16.542969 0 30.394531 13.191406 30.394531 29.734375v142.265625c0 16.542969-13.851562 30-30.390625 30zm144.390625-22.449219-94-51.898437v-53.550782l94-51.917968zm0 0"
+                    fill="#15111e"></path>
+                </svg>
+              </div>
+              <div>
+                <h5 class="service__video">Website building</h5>
+                <p class="service__desc">Starts from <span class="service__price">$49</span></p>
+                <p class="service__text">Abdullokh is a leading web design agency with an award-winning design team that
+                  creates innovative, effective websites </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-6 service__item service__item--white">
+            <div class=" service__item__inner">
+              <div>
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="400pt" viewBox="0 -22 400 400"
+                  width="400pt">
+                  <path
+                    d="m50 256.007812v-246.015624c-22.089844 0-40 17.910156-40 40v256.015624c0 22.089844 17.910156 40 40 40h300c22.089844 0 40-17.910156 40-40v-10h-300c-22.089844 0-40-17.910156-40-40zm0 0"
+                    fill="#d4e1f4"></path>
+                  <g fill="#ea4343">
+                    <path
+                      d="m198.410156 99.574219c-17.421875 0-31.59375-14.398438-31.59375-32.105469s14.171875-32.105469 31.59375-32.105469c17.417969 0 31.589844 14.402344 31.589844 32.105469s-14.171875 32.105469-31.589844 32.105469zm0-44.210938c-6.6875-.292969-12.34375 4.890625-12.632812 11.578125-.292969 6.683594 4.890625 12.339844 11.574218 12.632813 6.6875.292969 12.34375-4.890625 12.636719-11.574219.007813-.175781.011719-.351562.011719-.527344.132812-6.542968-5.050781-11.957031-11.589844-12.109375zm0 0">
+                    </path>
+                    <path
+                      d="m127.953125 99.574219c-17.417969 0-31.589844-14.398438-31.589844-32.105469s14.171875-32.105469 31.589844-32.105469 31.59375 14.398438 31.59375 32.105469-14.171875 32.105469-31.59375 32.105469zm0-44.210938c-6.683594-.292969-12.339844 4.890625-12.632813 11.578125-.289062 6.683594 4.894532 12.339844 11.578126 12.632813 6.6875.292969 12.34375-4.890625 12.636718-11.574219.007813-.175781.011719-.351562.011719-.527344.132813-6.542968-5.050781-11.957031-11.59375-12.109375zm0 0">
+                    </path>
+                    <path
+                      d="m61.816406 99.574219c-17.417968 0-31.589844-14.398438-31.589844-32.105469s14.171876-32.105469 31.589844-32.105469c17.421875 0 31.59375 14.398438 31.59375 32.105469s-14.171875 32.105469-31.59375 32.105469zm0-44.210938c-6.683594-.289062-12.339844 4.894531-12.628906 11.578125-.292969 6.6875 4.890625 12.339844 11.578125 12.632813 6.683594.292969 12.339844-4.890625 12.632813-11.574219.007812-.175781.011718-.351562.011718-.527344.136719-6.542968-5.050781-11.960937-11.59375-12.109375zm0 0">
+                    </path>
+                  </g>
+                  <path
+                    d="m400 50c0-27.613281-22.386719-50-50-50h-300c-27.613281 0-50 22.386719-50 50v256c0 27.613281 22.386719 50 50 50h300c27.613281 0 50-22.386719 50-50zm-350-30h300c16.558594.015625 29.980469 13.433594 30 29.992188v74.007812h-360v-74.007812c.019531-16.558594 13.441406-29.976563 30-29.992188zm300 316h-300c-16.558594-.015625-29.980469-13.433594-30-29.992188v-162.007812h360v162.007812c-.019531 16.558594-13.441406 29.976563-30 29.992188zm0 0"
+                    fill="#15111e"></path>
+                </svg>
+              </div>
+              <div>
+                <h5 class="service__video">Frontend</h5>
+                <p class="service__desc">Starts from <span class="service__price">$59</span></p>
+                <p class="service__text">Abdullokh is a leading web design agency with an award-winning design team that
+                  creates innovative, effective websites </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-6 service__item service__item--third service__item--white">
+            <div class="service__item__inner service__item__inner--third">
+              <div>
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="433pt" viewBox="0 0 433.82486 433"
+                  width="433pt">
+                  <path
+                    d="m356.199219 187.3125c-5.515625.015625-9.984375 4.484375-10 10v186.902344c-.046875 16.546875-13.449219 29.949218-30 30h-266.199219c-16.546875-.050782-29.953125-13.453125-30-30v-266.203125c.046875-16.546875 13.453125-29.949219 30-30h186.898438c5.523437 0 10-4.476563 10-10 0-5.523438-4.476563-10-10-10h-186.898438c-27.609375.011719-49.9882812 22.390625-50 50v266.203125c.0117188 27.609375 22.390625 49.988281 50 50h266.199219c27.609375-.011719 49.992187-22.390625 50-50v-186.902344c-.015625-5.515625-4.484375-9.984375-10-10zm0 0"
+                    fill="#15111e"></path>
+                  <path
+                    d="m379.800781 3.3125c-1.882812-1.882812-4.441406-2.925781-7.101562-2.898438-2.652344.019532-5.191407 1.054688-7.097657 2.898438l-143.203124 143.199219-.398438.402343-.199219.199219c-.199219.300781-.5.601563-.699219.898438 0 .101562-.101562.101562-.101562.203125-.199219.296875-.300781.5-.5.796875-.101562.101562-.101562.203125-.199219.300781-.101562.300781-.199219.5-.300781.800781 0 .101563-.101562.101563-.101562.199219l-25.5 76.902344c-1.222657 3.578125-.292969 7.542968 2.402343 10.199218 1.890625 1.863282 4.441407 2.90625 7.097657 2.898438 1.085937-.019531 2.164062-.1875 3.203124-.5l76.699219-25.597656c.097657 0 .097657 0 .199219-.101563.316406-.089843.621094-.226562.898438-.398437.078124-.011719.148437-.046875.203124-.101563.296876-.199219.699219-.398437 1-.601562.296876-.199219.597657-.5.898438-.699219.101562-.097656.199219-.097656.199219-.199219.101562-.101562.300781-.199219.402343-.398437l143.296876-143.300782c1.875-1.871093 2.925781-4.40625 2.925781-7.050781s-1.050781-5.183593-2.925781-7.050781zm-160.101562 211.199219 14.101562-42.398438 28.300781 28.300781zm60.902343-23.898438-37-37 129.097657-129.101562 37 37zm0 0"
+                    fill="#ea4343"></path>
+                </svg>
+              </div>
+              <div>
+                <h5 class="service__video">Applications</h5>
+                <p class="service__desc">Starts from <span class="service__price">$400</span></p>
+                <p class="service__text">Abdullokh is a leading web design agency with an award-winning design team that
+                  creates innovative, effective websites </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-6 service__item service__item--white">
+            <div class=" service__item__inner">
+              <div>
+                <svg class="service__icon" xmlns="http://www.w3.org/2000/svg" height="467pt" viewBox="-22 0 467 467.1"
+                  width="467pt">
+                  <g fill="#d4e1f4">
+                    <path
+                      d="m123.652344 125.699219c0-52.851563 42.84375-95.699219 95.699218-95.699219 3.097657 0 6.097657.199219 9.097657.398438-32.085938-25.167969-76.597657-27.246094-110.886719-5.171876-34.292969 22.074219-50.832031 63.449219-41.207031 103.078126 9.625 39.628906 43.300781 68.808593 83.894531 72.695312-23.109375-18.152344-36.605469-45.914062-36.597656-75.300781zm0 0">
+                    </path>
+                    <path
+                      d="m219.25 265.199219c11.292969-.007813 22.554688 1.164062 33.601562 3.5-25.121093-15.5-54.085937-23.640625-83.601562-23.5-88.097656.199219-159.398438 70.5-159.199219 166.199219l51-.097657c9.101563-85.300781 76.398438-145.902343 158.199219-146.101562zm0 0">
+                    </path>
+                    <path
+                      d="m381.949219 410.601562c0-15.300781 12.402343-27.703124 27.703125-27.703124h.097656c-6.648438-11.699219-20.742188-16.929688-33.414062-12.398438-12.671876 4.527344-20.257813 17.503906-17.988282 30.769531 2.273438 13.261719 13.746094 22.976563 27.203125 23.03125-2.332031-4.191406-3.570312-8.902343-3.601562-13.699219zm0 0">
+                    </path>
+                    <path
+                      d="m247.351562 443.398438c.015626-15.289063 12.40625-27.683594 27.699219-27.699219h.101563c-6.652344-11.699219-20.746094-16.929688-33.417969-12.402344-12.671875 4.53125-20.257813 17.507813-17.984375 30.773437 2.269531 13.261719 13.742188 22.976563 27.199219 23.03125-2.363281-4.179687-3.605469-8.898437-3.597657-13.703124zm0 0">
+                    </path>
+                  </g>
+                  <path
+                    d="m169.351562 211.398438c58.375 0 105.699219-47.320313 105.699219-105.699219 0-58.375-47.324219-105.699219-105.699219-105.699219-58.378906 0-105.699218 47.324219-105.699218 105.699219.054687 58.355469 47.34375 105.644531 105.699218 105.699219zm0-191.398438c47.328126 0 85.699219 38.371094 85.699219 85.699219 0 47.332031-38.371093 85.699219-85.699219 85.699219-47.332031 0-85.699218-38.367188-85.699218-85.699219.054687-47.308594 38.390625-85.644531 85.699218-85.699219zm0 0"
+                    fill="#15111e"></path>
+                  <path d="m285.652344 281.5.199218.199219zm0 0" fill="#15111e"></path>
+                  <path
+                    d="m385.652344 358.898438c-20.824219 0-37.703125 16.878906-37.703125 37.703124 0 20.820313 16.878906 37.699219 37.703125 37.699219 20.820312 0 37.699218-16.878906 37.699218-37.699219-.015624-20.816406-16.886718-37.6875-37.699218-37.703124zm0 55.402343c-9.777344 0-17.703125-7.925781-17.703125-17.699219 0-9.777343 7.925781-17.703124 17.703125-17.703124 9.773437 0 17.699218 7.925781 17.699218 17.703124.007813 4.695313-1.855468 9.203126-5.175781 12.523438-3.320312 3.320312-7.828125 5.183594-12.523437 5.175781zm0 0"
+                    fill="#15111e"></path>
+                  <path
+                    d="m251.050781 391.699219c-9.042969 0-17.777343 3.269531-24.601562 9.199219l-206.097657.5c2.097657-39.296876 17.398438-75.199219 43.398438-101.898438 27.699219-28.5 65.199219-44.199219 105.5-44.199219h.300781c38.101563-.1875 74.785157 14.441407 102.300781 40.800781.199219.199219.398438.296876.597657.5l-.597657-.601562.699219.601562.199219.199219 7.601562-9.5 5.398438-5.699219-.097656-.101562c-31.101563-29.898438-72.300782-46.300781-116.101563-46.300781h-.398437c-45.800782.101562-88.300782 17.902343-119.800782 50.300781-31.902343 32.699219-49.4023432 77.398438-49.3007808 125.898438.0195313 2.652343 1.0585938 5.195312 2.8984378 7.101562 1.882812 1.882812 4.441406 2.925781 7.101562 2.898438l204.300781-.5c-.636718 2.792968-.96875 5.640624-1 8.5 0 20.824218 16.878907 37.703124 37.699219 37.703124 20.820313 0 37.699219-16.878906 37.699219-37.703124.015625-.800782-.015625-1.601563-.097656-2.398438-1.25-19.847656-17.714844-35.308594-37.601563-35.300781zm0 55.402343c-6.980469-.003906-13.304687-4.105468-16.15625-10.476562-2.851562-6.371094-1.691406-13.820312 2.957031-19.023438 3.382813-3.722656 8.167969-5.859374 13.199219-5.902343 9.335938.003906 17.050781 7.28125 17.601563 16.601562v1.097657c.027344 4.6875-1.8125 9.191406-5.117188 12.515624-3.304687 3.324219-7.796875 5.191407-12.484375 5.1875zm0 0"
+                    fill="#15111e"></path>
+                  <path
+                    d="m410.949219 235.300781c-7.777344-6.484375-18.058594-9.128906-28-7.199219l-86.5 14.898438h-.199219c-15.964844 3.136719-27.484375 17.128906-27.5 33.398438v151.203124c0 5.519532 4.476562 10 10 10s10-4.480468 10-10v-151.203124c-.015625-6.652344 4.675781-12.390626 11.199219-13.699219l86.5-14.898438h.203125c4.101562-.773437 8.339844.285157 11.597656 2.898438 3.214844 2.667969 5.082031 6.625 5.101562 10.800781v133.300781c0 5.523438 4.476563 10 10 10 5.523438 0 10-4.476562 10-10v-133.300781c.019532-10.152344-4.535156-19.777344-12.402343-26.199219zm0 0"
+                    fill="#ea4343"></path>
+                </svg>
+              </div>
+              <div>
+                <h5 class="service__video">Templates</h5>
+                <p class="service__desc">Starts from <span class="service__price">$70</span></p>
+                <p class="service__text">Abdullokh is a leading web design agency with an award-winning design team that
+                  creates innovative, effective websites </p>
+              </div>
+            </div>
+          </li>
+
+          <li class="col-6 service__item">
+            <div class="service__part__center">
+              <h4 class="service__name service__name--second">Do You Want Something Different?</h4>
+              <a class="hero-content__link hero-content__link--second" href="#">Knock Me <i
+                  class='bx box-mail bx-mail-send'></i></a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+      <span class="service__top"></span>
+      <span class="service__bottom"></span>
+    </section>
+
+    <!-- SERVICE END  -->
+
+
+    <!-- RESUME START  -->
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="resume__wrapper">
+          <h5 class="service__title">Know More</h5>
+          <h4 class="service__name resume__name">My Resume</h4>
+          <p class="service__text service__text-first resume__text--first">I enjoy every step of the design process,
+            from discussion and collaboration to concept and execution</p>
+        </div>
+
+        <ul class="resume__list d-flex flex-wrap ">
+
+          <li class="resume__item col-lg-5 ">
+            <h5 class="resume__title d-flex align-items-center">Education</h5>
+            <div class="d-flex flex-wrap justify-content-between align-items-center resume__inner">
+              <div class="d-flex align-items-center">
+                <span class="resume__icon"><i class='bx resume__shape bxs-graduation'></i></span>
+                <div>
+                  <h5 class="resume__desc">Frontend Bootcamp</h5>
+                  <p class="resume__university">Najot Talim</p>
+                </div>
+              </div>
+              <p class="resume__year">2021-2022</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+
+          <li class="resume__item col-lg-5">
+            <h5 class="resume__title resume__title--second d-flex align-items-center">Experience</h5>
+            <div class="d-flex flex-wrap justify-content-between align-items-center resume__inner">
+              <div class="d-flex">
+                <span class="resume__icon"><i class='bx resume__shape bxs-shopping-bag'></i></span>
+                <div>
+                  <h5 class="resume__desc">Product Designer</h5>
+                  <p class="resume__university">University of Maine</p>
+                </div>
+              </div>
+              <p class="resume__year">2018 - 2020</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+
+          <li class="resume__item col-lg-5">
+            <div class="d-flex justify-content-between flex-wrap align-items-center resume__inner">
+              <div class="d-flex">
+                <span class="resume__icon"><i class='bx resume__shape bxs-shopping-bag'></i></span>
+                <div>
+                  <h5 class="resume__desc">IT</h5>
+                  <p class="resume__university">Cambridge college</p>
+                </div>
+              </div>
+              <p class="resume__year">2020-2021</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+
+          <li class="resume__item col-lg-5">
+            <div class="d-flex flex-wrap justify-content-between align-items-center resume__inner">
+              <div class="d-flex">
+                <span class="resume__icon"><i class='bx resume__shape bxs-shopping-bag'></i></span>
+                <div>
+                  <h5 class="resume__desc">UI/UX Expert</h5>
+                  <p class="resume__university">University of Maine</p>
+                </div>
+              </div>
+              <p class="resume__year">2018 - 2020</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+
+          <li class="resume__item col-lg-5">
+            <div class="d-flex justify-content-between flex-wrap align-items-center resume__inner">
+              <div class="d-flex">
+                <span class="resume__icon"><i class='bx resume__shape bxs-graduation'></i></span>
+                <div>
+                  <h5 class="resume__desc">Bachelor of Science</h5>
+                  <p class="resume__university">University of Maine</p>
+                </div>
+              </div>
+              <p class="resume__year">2018 - 2020</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+
+          <li class="resume__item col-lg-5">
+            <div class="d-flex justify-content-between flex-wrap align-items-center resume__inner">
+              <div class="d-flex">
+                <span class="resume__icon"><i class='bx resume__shape bxs-shopping-bag'></i></span>
+                <div>
+                  <h5 class="resume__desc">Economics</h5>
+                  <p class="resume__university">University of Economics</p>
+                </div>
+              </div>
+              <p class="resume__year">2021 - present</p>
+              <p class="resume__text">Abdullokh is a leading web design agency with an award-winning design</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="resume__ad">
+        <video controls autoplay loop muted class="resume__video" src="images/video.mp4"></video>
+      </div>
+
+    </section>
+
+    <!-- RESUME END  -->
+
+
+    <!-- BLOG START  -->
+
+    <section id="blog" class="blog">
+      <div class="container">
+
+        <div class="blog__inner">
+          <h5 class="service__title">Latest Updates</h5>
+          <h4 class="service__name">From My Blog</h4>
+          <p class="blog__text">We offer high quality products for competitive prices. Our main goal is customer
+            satisfaction</p>
+        </div>
+
+        <ul class="blog__list">
+
+          <li class="blog__item d-flex align-items-center justify-content-between">
+            <div class="blog__img__wrapper col-4 col-xs-12">
+              <div class="blog__img"></div>
+            </div>
+            <div class="col-4 blog__text__wrapper">
+              <p class="blog__design">Web Design</p>
+              <a class="blog__link" href="#">How to create simple personal website</a>
+              <p class="blog__date">November 10, 2021</p>
+            </div>
+            <div class="col-2 blog__link__wrapper">
+              <a class="hero-content__link hero-content__link--second hero-content__link--third" href="#">Full Story</a>
+            </div>
+          </li>
+
+          <li class="blog__item d-flex align-items-center justify-content-between">
+            <div class="blog__img__wrapper col-lg-4  col-sm-4 col-xs-12">
+              <div class="blog__img blog__img--second"></div>
+            </div>
+            <div class="col-4 blog__text__wrapper">
+              <p class="blog__design">Development</p>
+              <a class="blog__link" href="#">What is mobile app and web design</a>
+              <p class="blog__date">October 22, 2021</p>
+            </div>
+            <div class="col-2 blog__link__wrapper">
+              <a class="hero-content__link hero-content__link--second hero-content__link--third" href="#">Full Story</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- BLOG END  -->
+
+
+    <!-- CONTACT START  -->
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <h5 class="service__title contact__title">Get in Touch</h5>
+          <h4 class="service__name contact__name">Connect with Me with Confidence</h4>
+        </div>
+
+        <div class="d-flex contact__wrapper">
+
+          <div class="contact__left">
+            <p class="contact__text col-8">Please fill out the form on this section to contact with me. Or call between 9:00
+              a.m. and 8:00 p.m. ET, Monday through Friday</p>
+            <div class="d-flex contact__link__wrapper">
+              <svg class="contact__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 201.629 201.629"
+                style="enable-background:new 0 0 201.629 201.629;" xml:space="preserve">
+                <path
+                  d="M139.321,201.629c-1.457,0-2.925-0.14-4.387-0.426c-0.04-0.006-0.08-0.012-0.12-0.019  c-2.116-0.364-52.265-9.341-89.971-47.047C14.447,123.742,4.194,84.726,1.17,69.123c-0.564-1.856-0.888-3.791-0.962-5.757  c-0.023-0.219-0.029-0.438-0.018-0.656c-0.054-6.129,2.288-11.87,6.615-16.197l12.818-12.818c0.75-0.75,1.768-1.172,2.828-1.172  s2.078,0.422,2.828,1.172l41.479,41.48c1.563,1.562,1.563,4.095,0,5.656L53.942,93.649c-0.327,0.327-0.656,0.637-0.992,0.935  c-5.987,5.316-7.148,14.626-2.694,21.65c4.279,6.747,9.12,12.838,14.387,18.105c6.239,6.238,13.642,11.89,22.001,16.795  c6.837,4.012,15.627,2.726,21.379-3.127l0.139-0.14l12.818-12.817c1.563-1.563,4.094-1.563,5.656,0l41.479,41.479  c1.563,1.562,1.563,4.095,0,5.656l-12.817,12.818C151.006,199.296,145.262,201.629,139.321,201.629z M135.976,193.265  c0.11,0.014,0.22,0.031,0.329,0.054c4.857,1.008,9.843-0.478,13.337-3.971l9.988-9.989l-35.822-35.822l-10.104,10.104  c-8.302,8.448-21.105,10.265-31.108,4.396c-8.946-5.25-16.889-11.319-23.608-18.039c-5.682-5.682-10.893-12.234-15.486-19.478  c-6.531-10.301-4.75-24.024,4.145-31.923c0.226-0.198,0.438-0.4,0.646-0.608l9.984-9.984L22.452,42.18l-9.99,9.989  c-2.832,2.833-4.348,6.609-4.27,10.637c0.003,0.044,0.005,0.087,0.006,0.131c0.04,1.376,0.266,2.725,0.672,4.008  c0.046,0.147,0.084,0.298,0.113,0.45c2.831,14.729,12.544,52.113,41.517,81.087C85.282,183.264,132.552,192.626,135.976,193.265z   M197.444,110.944c-2.209,0-4-1.791-4-4C193.444,52.387,149.058,8,94.5,8c-2.209,0-4-1.791-4-4s1.791-4,4-4  c58.97,0,106.944,47.975,106.944,106.944C201.444,109.153,199.653,110.944,197.444,110.944z M172.624,110.944c-2.209,0-4-1.791-4-4  c0-41.226-33.539-74.765-74.764-74.765c-2.209,0-4-1.791-4-4s1.791-4,4-4c45.636,0,82.764,37.128,82.764,82.765  C176.624,109.153,174.833,110.944,172.624,110.944z M147.866,110.944c-2.209,0-4-1.791-4-4c0-27.573-22.433-50.006-50.006-50.006  c-2.209,0-4-1.791-4-4s1.791-4,4-4c31.984,0,58.006,26.021,58.006,58.006C151.866,109.153,150.075,110.944,147.866,110.944z">
+                </path>
+              </svg>
+
+              <div>
+                <p class="contact__call">Call me</p>
+                <a class="contact__type" href="tel:998444">+998936886461</a>
+              </div>
+            </div>
+            <div class="d-flex ">
+              <i class='bx contact__icon bx-envelope'></i>
+              <div class="contact__email__wrap">
+                <p class="contact__call">Email</p>
+                <a class="contact__type contact__email" href="mailto:erdf">giyasovabdullo0@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 contact__right">
+            <form class="contact__info" action="#">
+              <input class="contact__messege" type="text" name="name" placeholder="Your Name" required>
+              <input class="contact__messege" type="email" name="email" placeholder="Your Email" required>
+              <input class="contact__messege" type="number" name="number" placeholder="Your Number" required>
+              <textarea placeholder="Your message" class="contact__messege contact__messege__textarea" name="comment"
+                id="comment" cols="20" rows="8"></textarea>
+              <button class="contact__btn hero-content__link" type="submit">Submit Message <i
+                  class='bx bxl-telegram'></i></button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT END  -->
+  </main>
+
+  <!-- FOOTER START  -->
+
+  <footer id="site-footer" class="siter-footer footer">
+    <span class="footer__rectangle"></span>
+    <a class="footer__up" href="#">
+      <i class='bx footer__up__icon bx-chevron-up'></i>
+    </a>
+    <div class="container">
+      <div class="footer__flex">
+          <a class="header__logo footer__logo" href="#">Abdullokh</a>
+        <div class="footer__link__wrap">
+          <p class="footer__text">Connect</p>
+          <a class="footer__links" href="#"><i class='bx footer__icon bxl-facebook'></i></a>
+          <a class="footer__links" href="#"><i class='bx footer__icon bxl-twitter'></i></a>
+          <a class="footer__links" target="_blank" href="https://github.com/Abdullokh1"><i class='bx footer__icon bxl-github'></i></a>
+        </div>
+      </div>
+      <p class="footer__info">Designed with love by Abdullokh © 2022 </p>
+    </div>
+  </footer>
+
+  <!-- FOOTER END  -->
+
+
+
+  <script src="js/main.js"></script>
+  <script src="js/typed.js"></script>
+
+  <script>
+    var typed = new Typed('.animate-area', {
+      strings: [
+        'Developer',
+        'Designer',
+        'Freelancer'
+      ],
+      typeSpeed: 70,
+      backSpeed: 50,
+      loop: 50
+    });
+  </script>
+
+</body>
 </html>

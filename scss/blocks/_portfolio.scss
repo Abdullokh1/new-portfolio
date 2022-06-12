@@ -1,0 +1,206 @@
+.portfolio__main__wrapper{
+  height: 400px;
+  background-color: var(--color-change);
+  position: relative;
+}
+
+.portfolio__title {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.portfolio__inner{
+  text-align: center;
+}
+
+.portfolio__info {
+  font-size: 60px;
+  color: #fff;
+}
+
+.portfolio__item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.portfolio___link {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 18px;
+
+  &:hover{
+    color: #fff;
+  }
+
+  &::after{
+    content: "";
+    width: 100%;
+    height: 3px;
+    transform: scale(0);
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    transition: all 0.3s ease;
+  }
+
+  &:hover::after{
+    transform: scale(1);
+  }
+}
+
+.portfolio__bottom{
+  width: 400px;
+  height: 400px;
+  border: 5px solid #fff;
+  display: inline-block;
+  position: absolute;
+  left: -2%;
+  bottom: -40%;
+  animation: bottom-rectangle 10s linear infinite;
+}
+
+@keyframes bottom-rectangle {
+  0%{
+    transform: translate(0,0);
+  }
+  50%{
+    transform: translate(-50px);
+  }
+}
+
+.portfolio__work__list{
+  position: relative;
+  top: -180px;
+  gap: 30px;
+}
+
+.works__item{
+  width: 400px;
+  height: 423px;
+  position: relative;
+  border-radius: 10px;
+  background-image: url('../../images/react-food.jpg');
+  background-size: cover;
+  position: relative;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.works__item:hover .works__item__inner{
+  background-color: var(--color-change);
+  opacity: 0.8;
+}
+
+.works__item--second{
+  background-image: url('../../images/medium-react.jpg');
+}
+
+.work__item--third{
+  background-image: url('../../images/react-badiyat.jpg');
+}
+
+.works__item-fourth{
+  background-image: url('../../images/music-player.jpg');
+  background-position: center;
+}
+
+.works__item-fifth{
+  background-image: url('../images/freshio.jpg');
+}
+
+.works__item-six{
+  background-image: url('../../images/instagram.jpg');
+}
+
+.work__img{
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.works__item__inner {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.373);
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+
+.works__wrapper{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.works__item:hover .works__wrapper{
+  opacity: 1;
+  top: 52%;
+}
+
+.works__link{
+  position: relative;
+  top: 100px;
+  font-size: 30px;
+  color: #fff;
+
+  &:hover{
+    color: #fff;
+  }
+
+  &:nth-child(2):hover{
+    color: #00ad9f;
+  }
+
+}
+
+.works__icon{
+  font-size: 50px;
+}
+
+.works__folio{
+  font-size: 40px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1300px) {
+  .portfolio__bottom{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 660px) {
+  .portfolio__main__wrapper{
+    padding-top: 30px;
+  }
+
+  .portfolio__info{
+    font-size: 30px;
+  }
+
+  .portfolio___link{
+    font-size: 16px;
+  }
+
+  .works__item{
+    width: 350px;
+  }
+
+  .portfolio__work__list{
+    padding: 0 20px;
+  }
+ 
+}
+
+@media screen and (max-width: 400px) {
+
+  .works__item{
+    width: 300px;
+  }
+  
+}

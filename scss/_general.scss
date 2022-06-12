@@ -1,9 +1,61 @@
-/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
 html {
   box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
 }
+
+:root {
+  --color-change: #ea4343;
+}
+
+.green {
+  --color-change: #66b95c;
+}
+
+.light-orange {
+  --color-change: #ff9800;
+}
+
+.pink {
+  --color-change: #ff5e94;
+}
+
+.dark-orange {
+  --color-change: #fa5b0f;
+}
+
+.black {
+  --color-change: #000;
+}
+
+.purple {
+  --color-change: #9200ee;
+}
+
+.light-blue {
+  --color-change: #00d4bd;
+}
+
+.grey {
+  --color-change: #5e9e9f;
+}
+
+.blue {
+  --color-change: #4169e1;
+}
+
+.mud-color {
+  --color-change: #666d41;
+}
+
+.dark-red {
+  --color-change: #fe0000;
+}
+
 
 *,
 *::before,
@@ -12,17 +64,36 @@ html {
 }
 
 body {
+  background-color: #f4f5fe;
+  min-height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  overflow-x: hidden;
-  font-family: "Arial", sans-serif;
-  background-color: #fff;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+a{
+  text-decoration: none;
+}
+
+button{
+  border: none;
+}
+
+ul{
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 11px
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f5fe;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #999;
+  border-radius: 6px;
+  border: 3px solid #fff
 }

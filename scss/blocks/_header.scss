@@ -1,0 +1,174 @@
+.header {
+  padding-top: 10px;
+  padding: 30px 0;
+  transition: all 0.2s ease;
+}
+
+.hero__container{
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease;
+  z-index: 511;
+}
+
+.header__logo {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  z-index: 111;
+
+  &:hover{
+    color: #fff;
+  }
+  
+}
+
+.nav__item{
+  &:not(:last-child){
+    margin-right: 45px;
+  }
+}
+
+.nav__link {
+  font-size: 18px;
+  color: #fff;
+  transition: all 0.5s ease;
+  font-weight: 600;
+  text-transform: capitalize;
+
+  &.active{
+    color: var(--color-change);
+  }
+
+  &:hover{
+    color: var(--color-change);
+  }
+  
+}
+
+.header-white{
+  background-color: #fff;
+}
+
+.scrolling-active{
+  background-color: #fff;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  transition: all 0.2s ease;
+}
+
+.scrolling-active .nav .nav__scroll__link{
+  color: #3c3c3c;
+}
+
+.scrolling-active .header__logo{
+  color: #3c3c3c;
+}
+
+.scrolling-active .nav .nav__scroll__link:hover{
+  color: var(--color-change);
+}
+
+.header__btn{
+  display: none;
+  font-size: 35px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #3c3c3c;
+}
+
+@media screen and (max-width: 1090px) {
+  
+  .header{
+    flex-direction: column;
+  }
+
+  .header__logo{
+    padding-bottom: 20px;
+    display: inline-block;
+  }  
+
+}
+
+@media screen and (max-width: 910px) {
+
+  .nav__item:not(:last-child){
+    margin-right: 18px !important;
+  }
+  
+}
+
+@media screen and (max-width: 735px) {
+
+  .header{
+    flex-direction: row;
+  }
+
+  .header{
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 44;
+
+    &__btn{
+      position: relative;
+      top: 4px;
+    }
+
+  }
+  
+  .header__logo{
+    color: #3c3c3c;
+    padding-bottom: 0;
+  }
+
+  .container{
+    padding: 0 0;
+  }
+
+  .nav{
+    position: absolute;
+    right: -110%;
+    top: 77px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100vw;
+    transition: all 0.4s ease;
+
+    &__item{
+      padding-left: 40px;
+      margin-bottom: 15px;
+
+    }
+  }
+
+  .nav__link{
+    color: #3c3c3c;
+    transition: all 0.3s ease;
+    display: inline-block;
+
+    &:hover{
+      transform: translate(6px);
+    }
+
+  }
+
+  .header__btn{
+    display: block;
+  }
+
+  .show{
+    padding-top: 20px;
+    right: 0;
+    transition: all 0.4s ease;
+  }  
+
+}

@@ -1,0 +1,133 @@
+.contact{
+  padding-bottom: 100px;
+}
+
+.contact__inner{
+  text-align: center;
+}
+
+.contact__name{
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.contact__title{
+  margin-bottom: 10px;
+}
+
+.contact__icon{
+  width: 60px;
+  height: 60px;
+  font-size: 60px;
+  margin-right: 30px;
+}
+
+.contact__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #7d7789;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.contact__call {
+  font-size: 20px;
+  color: #15111e;
+  margin-bottom: 5px;
+}
+
+.contact__type{
+  color: var(--color-change);
+  font-size: 25px;
+
+  &:hover{
+    color: var(--color-change);
+  }
+}
+
+.contact__link__wrapper{
+  margin-bottom: 30px;
+}
+
+.contact__info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact__messege{
+  height: 60px;
+  border-radius: 10px;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #aaa6b2;
+  border: none;
+  padding: 30px;
+  margin-bottom: 40px;
+
+  &:focus{
+    outline: none;
+  }
+
+  &::placeholder{
+    color: #7d7789;
+  }
+}
+
+.contact__left{
+  margin-right: 40px;
+}
+
+.contact__messege__textarea{
+  height: auto;
+  padding-left: 20px;
+  resize: none;
+}
+
+.contact__btn{
+  width: 225px;
+  padding: 10px 100px 9px 30px;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover{
+    color: #15111e;
+  }
+}
+
+.bxl-telegram{
+  position: relative;
+  top: 3px;
+  left: 2px;
+}
+
+
+@media screen and (max-width: 860px) {
+  .contact__wrapper{
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .contact__right{
+    width: 100%;
+    padding-top: 40px;
+  }
+  .contact__name{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .contact__text{
+    width: 100%;
+  }
+
+  .contact__type{
+    width: 100%;
+    font-size: 16px;
+  }
+  
+}

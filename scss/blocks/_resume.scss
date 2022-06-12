@@ -1,0 +1,129 @@
+.resume{
+  padding-top: 150px;
+  position: relative;
+}
+
+.resume__text--first{
+  width: 620px;
+}
+
+.resume__list{
+  padding-top: 60px;
+}
+
+.resume__title {
+  font-size: 30px;
+  color:#15111e;
+  margin-bottom: 33px;
+  font-weight: 700;
+
+  &::before{
+    content: "";
+    width: 30px;
+    height: 6px;
+    background-color: var(--color-change);
+    display: inline-block;
+    margin-right: 5px;
+  }
+}
+
+.resume__desc {
+  font-size: 24px;
+  font-weight: 700;
+  color: #15111e;
+}
+
+.resume__university{
+  font-size: 18px;
+  color: #15111e;
+  margin-bottom: 20px;
+}
+
+.resume__inner{
+  width: 80%;
+  margin: 0 0;
+}
+
+.resume__year {
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  color: #7d7789;
+  font-weight: 400;
+}
+
+.resume__icon{
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-change);
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume__shape{
+  font-size: 20px;
+  color: #fff;
+}
+
+.resume__text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  color: #7d7789;
+  font-size: 18px;
+  width: 380px;
+  position: relative;
+  left: 62px;
+}
+
+.resume__item{
+  margin-bottom: 30px;
+
+}
+
+.resume__ad{
+  width: 18vw;
+  height: 140vh;
+  background-color: var(--color-change);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.resume__video{
+  height: 140vh;
+  width: 18vw;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+  .resume__ad{
+    display: none;
+  }
+
+  .resume__wrapper{
+    padding-top: 60px;
+  }
+
+  .resume{
+    padding: 0 20px;
+  }
+
+  .service__text{
+    width: 100% !important;
+  }
+  
+  .resume__text{
+    width: 90%;
+    position: relative;
+    left: 0;
+  }
+
+  .resume__icon{
+    margin-bottom: 20px;
+  }
+
+}
