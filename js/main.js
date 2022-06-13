@@ -42,3 +42,26 @@ window.addEventListener('scroll', () => {
 })
 
 // WINDOW SCROLL END 
+
+
+let elSetting = document.querySelector(".color__icon-box");
+let num = 0;
+
+elSetting.addEventListener("click", () => {
+  if(num == 0){
+    elSetting.parentNode.style.right = "0px";
+    num++;
+  } else {
+    elSetting.parentElement.style.right = "-200px";
+    num = 0;
+  }
+});
+
+let elColorBtns = document.querySelectorAll(".color__btn");
+
+elColorBtns.forEach(item => {
+  item.addEventListener("click", () => {
+    document.body.className = "";
+    document.body.classList.add(item.classList[1]);
+  })
+})
