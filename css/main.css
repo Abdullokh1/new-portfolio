@@ -1321,6 +1321,18 @@ ul {
   opacity: 0.8;
 }
 
+.works__item-elissi {
+  background-image: url("../../images/elissi.jpg");
+}
+
+.works__item-effect {
+  background-image: url("../../images/effect-uz.jpg");
+}
+
+.works__item-fajjEducation {
+  background-image: url("../../images/fajj-education.jpg");
+}
+
 .works__item--second {
   background-image: url("../../images/medium-react.jpg");
 }
